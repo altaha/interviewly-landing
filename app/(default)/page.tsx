@@ -1,8 +1,9 @@
 export const metadata = {
-  title: 'Home - Simple',
-  description: 'Page description',
+  title: 'Home | Interviewly.ai',
+  description: 'Interviewly.ai Landing Page',
 }
 
+import  { Analytics }  from   '@vercel/analytics/react' ;
 import Hero from '@/components/hero'
 import Features from '@/components/features'
 import FeaturesBlocks from '@/components/features-blocks'
@@ -17,6 +18,7 @@ export default function Home() {
       {/*<FeaturesBlocks />*/}
       {/*<Testimonials />*/}
       {/*<Newsletter />*/}
+      <Analytics />
     </>
   )
 }
