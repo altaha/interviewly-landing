@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Home | Interviewly.ai',
-  description: 'Interviewly.ai Landing Page',
+  description: 'Interviewly.ai is your AI Interview Coach. Practice your interviews with an AI mock Interviewer.',
 }
 
 import  { Analytics }  from   '@vercel/analytics/react' ;
