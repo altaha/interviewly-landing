@@ -29,7 +29,6 @@ export const metadata: Metadata = {
     title: "Interviewly: AI Interview Coach",
     description: "Practice and Ace your interviews with the help of an AI interview coach",
     siteName: "Interviewly AI",
-    images: "/images/hero-video-interview.svg",
   }
 }
 
