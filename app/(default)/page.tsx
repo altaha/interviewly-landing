@@ -1,5 +1,4 @@
 import { Metadata } from 'next'
-import  { Analytics }  from   '@vercel/analytics/react' ;
 import Hero from '@/components/hero'
 import Features from '@/components/features'
 import FeaturesBlocks from '@/components/features-blocks'
@@ -18,7 +17,6 @@ export default function Home() {
       {/*<FeaturesBlocks />*/}
       {/*<Testimonials />*/}
       {/*<Newsletter />*/}
-      <Analytics />
     </>
   )
 }

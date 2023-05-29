@@ -2,9 +2,11 @@ import './css/style.css'
 
 import { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import  { Analytics } from '@vercel/analytics/react' ;
 
-import Header from '@/components/ui/header'
 import Banner from '@/components/banner'
+import Footer from '@/components/ui/footer'
+import Header from '@/components/ui/header'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -42,9 +44,13 @@ export default function RootLayout({
       <body className={`${inter.variable} font-inter antialiased bg-white text-gray-900 tracking-tight`}>
         <div className="Simpleflex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
-          {children}
+          <main className="grow">
+            {children}
+          </main>
+          <Footer />
           {/*<Banner />*/}
         </div>
+        <Analytics />
       </body>
     </html>
   )

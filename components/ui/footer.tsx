@@ -118,11 +118,14 @@ export default function Footer() {
           <div>
             <div className='flex space-x-4 items-center'>
               <Logo />
-              <a href="#0" className="text-sm text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">
+              <a href="/terms" className="text-sm text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">
                 Terms
               </a>
-              <a href="#0" className="text-sm text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">
+              <a href="/privacy" className="text-sm text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">
                 Privacy Policy
+              </a>
+              <a href="/disclaimer" className="text-sm text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">
+                Disclaimer
               </a>
             </div>
             {/* Copyrights note */}
